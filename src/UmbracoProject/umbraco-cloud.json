@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "cicd aao",
+      "Alias": "cicd-aao",
+      "Id": "17bccc91-04c3-48c6-8ca9-c5484731b091",
+      "Workspaces": [
+        {
+          "Id": "79e02eb2-80a2-41ea-9f91-62ed76b38c4f",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://cicd-aao.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
