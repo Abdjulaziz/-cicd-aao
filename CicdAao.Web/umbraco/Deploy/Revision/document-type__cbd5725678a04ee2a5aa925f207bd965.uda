@@ -1,0 +1,55 @@
+{
+  "Name": "Airport",
+  "Alias": "airport",
+  "DefaultTemplate": "umb://template/caf13e9729224dec9cbf569e8d5a82e4",
+  "AllowedTemplates": [
+    "umb://template/caf13e9729224dec9cbf569e8d5a82e4"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-plane color-red",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "da801bac-fde0-423d-97f5-a3e1bbaf4a58",
+      "Name": "Airport content",
+      "Alias": "airportContent",
+      "PropertyTypes": [
+        {
+          "Key": "47d7550b-c3e5-4e4a-9517-8694ffdf036b",
+          "Alias": "airportName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Airport name"
+        },
+        {
+          "Key": "b9cb6ba5-06f5-4f29-b52b-0a67c09a1372",
+          "Alias": "airportImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Name": "Airport image",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/cbd5725678a04ee2a5aa925f207bd965",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/caf13e9729224dec9cbf569e8d5a82e4",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "14.0.1"
+}
